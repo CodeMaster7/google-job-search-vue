@@ -1,7 +1,7 @@
 <script setup>
-
+// Navigation-related logic directly here
 </script>
 
 <template>
-  <h1>MainNav</h1>
+	<header class="w-full text-sm">Main Nav</header>
 </template>
