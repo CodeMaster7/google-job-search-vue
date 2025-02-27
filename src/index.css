@@ -49,18 +49,33 @@
 /* Your custom CSS can go below this line */
 
 @theme {
+  /* Fonts */
   --font-sans: 'Open Sans', sans-serif;
+  /* Text sizes */
+  --text-xs: 0.75rem;
+  /* 12px / 16 = 0.75rem */
+  --text-sm: 0.875rem;
+  /* 14px / 16 = 0.875rem */
+  --text-base: 1rem;
+  /* 16px / 16 = 1rem */
+  --text-lg: 1.125rem;
+  /* 18px / 16 = 1.125rem */
+  --text-xl: 1.25rem;
+  /* 20px / 16 = 1.25rem */
+  --text-2xl: 1.5rem;
+  /* 24px / 16 = 1.5rem */
+  --text-3xl: 2rem;
+  /* 32px / 16 = 2rem */
 
-  --text-xs: 12px;
-  --text-sm: 14px;
-  --text-base: 16px;
-  --text-lg: 18px;
-  --text-xl: 20px;
-  --text-2xl: 24px;
-  --text-3xl: 32px;
-
+  /* Font weights */
   --font-weight-light: 300;
   --font-weight-normal: 400;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
+
+  /* Colors */
+  /* brand or company colors */
+  --color-brand-gray-100: #dadce0;
+  --color-brand-blue-100: #1967d2;
+  --color-brand-green-100: #137333;
 }
